@@ -1,0 +1,147 @@
+*{
+  box-sizing: border-box;
+}
+
+.header{
+    widows: 100%;
+    height: 56px;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:90;
+}
+
+.logo{
+  justify-content: left;
+  padding: 15px 15px 15px 0px;
+}
+.logo a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+}
+
+/* 메뉴 배열 */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    flex-direction: row;
+    flex-flow: nowrap;
+  }
+  
+  /* 메뉴 가상선택자 */
+  .main a {
+    color: rgb(53, 110, 58);
+    padding: 30px;
+    margin-top: 5px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  /* 커서 올려놨을때 색변화 */
+  .main a:hover {
+    background-color: rgb(53, 110, 58);
+    color: #fff;
+  }
+
+  .main {
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: nowrap;
+    padding: 30px;
+  }
+  .right{
+    justify-content: right;
+    flex-direction: row;
+    flex-flow: nowrap;
+    padding: 30px;
+  }
+
+  .search {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 550px;
+    margin-left: 500px;
+    margin-right: 400px;
+    margin-top: 10px;
+    font-weight: 300;
+    flex-direction: row;
+    flex-flow: nowrap;
+  }
+
+  .search a {
+    color: rgb(53, 110, 58);
+    text-decoration: rgb(53, 110, 58);
+  }
+
+      /* 사진 배열 */
+  .main-container {
+    display: table;
+    width:100%;
+    max-width: 1100px;
+    max-height: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-flow: nowrap;
+  }
+  .row {
+    display: table-row;
+    vertical-align: top;
+  }
+  .cell {
+    display: table-cell;
+  }
+  .left {
+   width: 100%;
+   display: table-cell;
+   vertical-align: top;
+   margin: 0px;
+ }
+
+  /*.leftimg {
+    display: table-cell;
+    width: 60%;
+    vertical-align: top;
+  }
+
+  .rightimg {
+    display: table-column;
+    width: 40%;
+    vertical-align: top;
+  }
+
+  .main-container .rightimg .rightimg1 {
+    display: flex;
+    width: 100%;
+  }
+
+  .main-container .rightimg .rightimg2 {
+    display: flex;
+    width: 100%;
+  }
+  
+  .main-container .leftimg p {
+    display: table-cell;
+  }
+
+  .main-container .rightimg .rightimg1 p {
+    display: table-cell;
+  }
+
+  .main-container .rightimg .rightimg2 p {
+    display: table-cell;
+  }
+
+  div{display: block;}*/
+
+
+    /* 사진 사이즈 */
+  .img-fluid{width:220px; height:440px;} 
+  .img-fluid2{width:220px; height:220px;} 
+  .img-fluid3{width:25px; height:25px;}
